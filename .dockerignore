@@ -1,0 +1,29 @@
+# add git-ignore syntax here of things you don't want copied into docker image
+
+.git
+*Dockerfile*
+*docker-compose*
+node_modules
+.github
+.env*
+
+.vercel
+*.lock
+.idea/
+coverage
+benchmarks
+vercel_tokeng
+
+# IDE
+.vscode/*
+!.vscode/extensions.json
+!.vscode/settings.json
+*.code-workspace
+
+.vercel
+
+.prettier*
+*.md
+jest*
+eslint*
+test/
