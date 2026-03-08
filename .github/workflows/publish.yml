@@ -25,4 +25,4 @@ jobs:
         uses: docker/build-push-action@v6
         with:
           push: true
-          tags: ${{ vars.DOCKERHUB_USERNAME }}/github-reamde-stats:latest
+          tags: ${{ vars.DOCKERHUB_USERNAME }}/github-readme-stats:latest
